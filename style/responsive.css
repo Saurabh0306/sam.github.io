@@ -1,0 +1,32 @@
+/**
+ * /
+ *
+ * @format
+ */
+
+@media (min-width: 1200px) {
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #about-bg-diagonal {
+    border-left: 0;
+    border-top: 0;
+    width: 100%;
+    height: 350px;
+  }
+
+  #abour-content-box {
+    width: 100%;
+    height: 350px;
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 767px) {
+  #home-heading h3 {
+    color: brown;
+  }
+}

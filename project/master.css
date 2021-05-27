@@ -1,0 +1,130 @@
+/** @format */
+
+/*=============
+     Navbar
+================*/
+.navbar {
+  background-color: black;
+}
+
+.navbar a {
+  color: #fff;
+}
+
+.nav-item {
+  color: #fff;
+  display: inline;
+}
+
+/*=====================
+        Ads
+=======================*/
+.banner {
+  display: grid;
+  box-sizing: border-box;
+  width: 100%;
+  border: 4px solid rgb(38, 177, 38);
+  border-radius: 2px;
+  margin-top: 1px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 2px;
+}
+.banner img {
+  width: 100%;
+  height: 145px;
+}
+.Fruits img, .Vegitables img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+  transition-duration: .5s;
+}
+.Fruits img,Vegitable img:hover{
+	transform: scale(1.1);
+}
+.Vegetables img {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  left: 20px;
+  top: 20px;
+	transition:all 2s;
+}
+.Vegetables img:hover{
+	transform: scale(1.1);
+}*/
+
+}
+@media screen and (max-width: 650px) {
+  .banner {
+    grid-template-columns: 1fr;
+  }
+}
+.Fruits {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+@media screen and (max-width: 650px) {
+  .Fruits {
+    grid-template-columns: 1fr;
+  }
+}
+.Vegetables {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+  
+
+div[class="button"] {
+  position: relative;
+  top: 50px;
+  left: 30px;
+}
+
+.pod {
+  margin: 0px;
+  justify-self: center;
+  box-sizing: border-box;
+  border: 2px solid rgba(156, 156, 156, 0.5);
+  height: 300px;
+  width: 200px;
+  border-radius: 0px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+@media screen and (max-width: 650px) {
+  .Vegetables {
+    grid-template-columns: 1fr;
+  }
+}
+.dropdown-menu a:hover {
+  display: block;
+}
+/*======btn====*/
+.btn-success {
+	margin-left: 15px;
+}
+
+/*=========Catagories-Name==========*/
+
+#catagorie-name {
+	 margin-top: 20px;
+        box-sizing: border-box;
+        width: 100%;
+        color: black;
+        margin-bottom: 50px; 
+        text-align: center;
+        border-bottom: 2px solid black;
+}
+
+/*=========Product==========*/
+
+#Add {
+	text-align: center; position: relative; top: 25px;
+		padding-top: 10px;
+}

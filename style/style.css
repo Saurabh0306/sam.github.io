@@ -1,0 +1,522 @@
+/**
+ * /*=========================================================
+ *                    Default value:root
+ * 
+ *                    font family:        roboto condensed
+ * 
+ * greenish blue       : #00fa9a     (button,icon,link,lines & background)
+ * steel grey          : #41464b     (heading)
+ * blue bayoux         : #64707b     (paragraph)
+ * white               : #fff        (text with black background)
+ * black               : #000        ()
+ * 
+ * ===========================================================
+ *
+ * @format
+ */
+
+html,
+body {
+	height: 100%;
+}
+
+body {
+	font-family: "roboto condensed", sans-serif;
+}
+
+p {
+	color: #64707b;
+	font-size: 16px;
+	font-weight: 400;
+}
+
+h3 {
+	color: #41464b;
+	text-transform: uppercase;
+}
+
+/*===========================================================
+                  Navbar
+=======================================================*/
+.navbar {
+	padding: 20px 0;
+	transition: all 0.5s ease-in-out;
+}
+
+.fresh-top-nav {
+	background: rgba(0, 0, 0, 0.7);
+	padding: 7px 0;
+}
+
+.fresh-nav-wrapper {
+	padding: 0 85px;
+}
+
+.navbar-nav {
+	float: right;
+}
+
+.navbar-nav > li > a {
+	color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+
+.navbar-nav > li > a:hover {
+	background: none;
+	color: #00fa9a;
+}
+
+.navbar-toggle {
+	background-color: rgba(0, 0, 0, 0.1);
+	border: 1px solid #fff;
+	border-radius: 0;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+
+.navbar-collapse {
+	max-height: none !important;
+}
+
+/*=========================================================
+                         Home
+=========================================================*/
+#Home {
+	height: 100%;
+}
+
+#home-cover {
+	height: 100%;
+	background-image: url("../image/holding\ 2.jpg");
+	width: 100%;
+	margin-right: 0;
+}
+
+#home-content-box {
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+#home-content-box-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#home-heading h3 {
+	color: #fff;
+	font-size: 45px;
+	font-weight: 700;
+	margin: 20px 0 20px 0;
+}
+
+/*====================================
+               paralax (generic)
+======================================*/
+.bg-parallax {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+/*====================================
+               button
+======================================*/
+
+.btn-general {
+	border-color: #fff;
+	border-width: 2px;
+	border-radius: 0;
+	padding: 12px 26px 12px 26px;
+	font-size: 16px;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.btn-blue {
+	border-color: #00fa9a;
+	color: #00fa9a;
+}
+
+.btn-blue:hover,
+.btn-blue:focus {
+	background-color: #00fa9a;
+	color: #fff;
+}
+
+.btn-white {
+	border-color: #fff;
+	color: #fff;
+}
+
+.btn-white:hover,
+.btn-general:focus {
+	background-color: #fff;
+	color: #41464b;
+}
+
+/*================================
+             animation
+================================*/
+
+#home-cover {
+	animation-delay: 0.1s;
+	animation-duration: 1px;
+}
+
+#home-heading {
+	animation-delay: 0.5s;
+	animation-duration: 0.5s;
+}
+
+#home-btn {
+	animation-delay: 1s;
+	animation-duration: 0.5s;
+}
+
+/*====================================
+             Content box (generic)
+======================================*/
+
+.content-box {
+	padding: 60px 0px 60px 0px;
+	margin-left: 30px;
+}
+
+.content-tittle h3 {
+	font-size: 30px;
+	font-weight: 700;
+	text-align: center;
+	margin: 0 0 30px 0;
+}
+
+.content-tittle-underline {
+	width: 30px;
+	height: 3px;
+	background-color: #00fa9a;
+	margin: 0 auto 30px auto;
+}
+
+/*====================================
+             Service
+======================================*/
+.service-item {
+	padding: 20px 0 20px 0;
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+
+.service-item-icon {
+	color: #00fa9a;
+	float: left;
+	padding: 15px;
+	margin-right: 25px;
+	width: 75px;
+	height: 75px;
+	text-align: center;
+}
+
+.service-item:hover .service-item-icon i {
+	color: #fff;
+	background-color: #00fa9a;
+}
+
+.service-item-tittle h3 {
+	font-size: 20px;
+	font-weight: 400;
+	margin: 0 0 10px 0;
+}
+
+.service-item-desc p {
+	margin: 0;
+	padding-left: 85px;
+}
+
+/*====================================
+             About
+======================================*/
+#about-bg-diagonal {
+	width: 50%;
+	height: 400px;
+	float: right;
+	background-image: url(../image/about\ image.jpg);
+	border-left: 200px solid #fff;
+	border-top: 500px solid transparent;
+	margin-top: 20px;
+}
+
+#about-content-box {
+	float: left;
+	height: 500px;
+}
+
+#about-content-box-outer {
+	width: 100%;
+	height: 90%;
+	display: table;
+}
+
+#about-content-box-inner {
+	display: table-cell;
+	vertical-align: middle;
+}
+
+#about .content-tittle h3 {
+	text-align: left;
+}
+
+#about .content-tittle .content-tittle-underline {
+	margin: 0 0 30px 0;
+}
+
+#about-desc p {
+	margin-bottom: 30px;
+}
+
+/*====================================
+              WORK
+======================================*/
+#work .container .row .col-md-3 {
+	vertical-align: middle;
+}
+
+/*=====================================
+              team
+====================================*/
+
+.team-member {
+	margin: 0 15px;
+}
+
+.team-member-info {
+	padding: 10px 0 30px 0;
+}
+
+h4.team-member-name {
+	font-size: 22px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	padding-top: 20px;
+}
+
+h4.team-member-designation {
+	color: #00fa9a;
+	font-size: 15px;
+	font-weight: 700;
+	font-style: italic;
+	letter-spacing: 1px;
+	margin-top: 5px;
+}
+
+/*=====================================
+              social
+====================================*/
+.social-list {
+	padding-left: 0;
+}
+
+.social-list li {
+	list-style: none;
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	margin-right: 6px;
+	margin-top: 10px;
+}
+
+.social-icon i {
+	font-size: 17px;
+}
+
+.icon-grey i {
+	color: #64707b;
+}
+
+.icon-white i {
+	color: #fff;
+}
+
+.social-icon i:hover {
+	color: #00fa9a;
+}
+
+/*=====================================
+              stats
+====================================*/
+
+#stats-cover {
+	background-image: url("../image/devine.jpg");
+}
+
+#stats .content-box {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.stats-item {
+	padding: 100px 0;
+}
+
+.stats-item i {
+	color: #00fa9a;
+}
+
+.stats-item h2 {
+	color: #fff;
+	font-size: 35px;
+	font-weight: 700;
+	margin-top: 15px;
+	margin-bottom: 1px;
+}
+
+.stats-item p {
+	color: #fff;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-top: 0;
+}
+
+/*=====================================
+              contact
+====================================*/
+footer {
+	background-color: #41464b;
+	padding-top: 30px;
+	border-top: 5px solid rgba(0, 0, 0, 0.1);
+}
+
+#contact-left h3,
+contact-right h3 {
+	color: #fff;
+	font-size: 27px;
+	font-weight: 700;
+}
+
+#contact-left p {
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+#contact-info {
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+address {
+	color: #fff;
+}
+
+address strong,
+#phone-email strong {
+	letter-spacing: 1px;
+}
+
+form .form-control {
+	background: transparent;
+	border-radius: 0;
+	border-color: #fff;
+	font-size: 17px;
+	font-weight: 300;
+	padding: 8px 16px;
+	margin-bottom: 20px;
+	color: #fff;
+}
+
+/*=====================================
+             footer
+====================================*/
+#footer-bottom {
+	background-color: rgba(0, 0, 0, 0.1);
+	padding: 30px 0;
+	margin-top: 60px;
+}
+
+#footer-copyright p {
+	margin: 0;
+	color: #fff;
+}
+
+#footer-menu {
+	float: left;
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+#footer-menu ul {
+	list-style: none;
+	padding-left: 0;
+	margin: 0;
+}
+
+#footer-menu ul li {
+	display: inline-block;
+}
+
+#footer-menu a {
+	color: #fff;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0 10px;
+	text-decoration: none;
+}
+
+#footer-menu a:hover {
+	color: #00fa9a;
+}
+
+/*==========================
+         Product
+===========================*/
+
+.card {
+	box-shadow: 0 4px 8px 0 rgba (0, 0, 0, 0.2);
+	max-width: 200px;
+	margin-left: 0;
+	text-align: center;
+	font-family: arial;
+}
+
+.price {
+	color: #00fa9a;
+	font-size: 22px;
+}
+
+.card-button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: #000;
+	text-align: center;
+	cursor: pointer;
+	width: 50%;
+	font-size: 18px;
+}
+
+.card button:hover {
+	opacity: 0.7;
+}
+ 
+.block {
+	background-color: honeydew;
+    box-sizing: border-box;
+    height: 300px;
+    width: 200px;
+    border-radius: 5px;
+    margin-left: 220px;
+    margin-top: 20px;
+    display: inline-block
+}
+
+.fruits img {
+	height: 150px;
+	width: 150px;
+	margin-left: 20px;
+	margin-top: 20px;
+}
